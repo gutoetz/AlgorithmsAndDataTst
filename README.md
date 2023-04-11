@@ -27,7 +27,7 @@ console.log(filteredArray.str([1, 2, 3, 4, 5, 'a', 'b'])); // ['a', 'b']
 
 // Example of using Basic Math
 const calculator = new BasicMath();
-const result = calculator.add(2, 3);
+const result = calculator.add([2, 3]);
 console.log(result); // 5
 
 // Example of using Generate ID
