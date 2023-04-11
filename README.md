@@ -22,8 +22,7 @@ To use these algorithms, simply import the corresponding file and use the availa
 
 ```javascript
 // Example of using Filtering arrays
-const filteredArray = new filterArray();
-console.log(filteredArray.str([1, 2, 3, 4, 5, 'a', 'b'])); // ['a', 'b']
+console.log(filteredArray([1, 2, 3, 'a', 'b'])); // { a: ['a', 'b'], b: [1,2,3], c: 3 }
 
 // Example of using Basic Math
 const calculator = new BasicMath();
