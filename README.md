@@ -1,35 +1,35 @@
 # Algorithms And Data Test
 
-Este repositório contém algoritmos criados para um teste de uma empresa para a qual estou me candidatando.
+This repository contains algorithms created for a test for a company that I'm applying to.
 
-## Algoritmos
+## Algorithms
 
 ### Filtering arrays
 
-O algoritmo de filtragem de arrays consiste em filtrar um array de entrada, removendo elementos que não satisfaçam uma determinada condição. O resultado final é um novo array com apenas os elementos que atendam à condição estabelecida.
+The array filtering algorithm consists of filtering an input array, removing elements that do not meet a certain condition. The final result is a new array with only the elements that meet the established condition.
 
 ### Basic Math
 
-A classe Basic Math é uma implementação de operações matemáticas básicas. É possível utilizar esta classe para realizar somas, subtrações, multiplicação e divisões com números inteiros.
+The Basic Math class is an implementation of basic mathematical operations. It is possible to use this class to perform addition, subtraction, multiplication, and division with integers.
 
 ### Generate ID
 
-A função Generate ID cria um identificador alfanumérico no formato "xxxx-xxxx-xxxx", em que cada "x" representa um caractere alfanumérico aleatório. Essa função pode ser utilizada para gerar IDs únicos e aleatórios em uma aplicação.
+The Generate ID function creates an alphanumeric identifier in the format "xxxx-xxxx-xxxx", where each "x" represents a random alphanumeric character. This function can be used to generate unique and random IDs in an application.
 
-## Como utilizar
+## How to use
 
-Para utilizar esses algoritmos, basta importar o arquivo correspondente e utilizar as funções ou classes disponíveis em seu código.
+To use these algorithms, simply import the corresponding file and use the available functions or classes in your code.
 
 ```javascript
-// Exemplo de uso do Filtering arrays
-const filteredArray = filterArray([1, 2, 3, 4, 5], (n) => n % 2 === 0);
-console.log(filteredArray); // [2, 4]
+// Example of using Filtering arrays
+const filteredArray = new filterArray();
+console.log(filteredArray.str([1, 2, 3, 4, 5, 'a', 'b'])); // ['a', 'b']
 
-// Exemplo de uso da Basic Math
+// Example of using Basic Math
 const calculator = new BasicMath();
 const result = calculator.add(2, 3);
 console.log(result); // 5
 
-// Exemplo de uso da Generate ID
+// Example of using Generate ID
 const id = generateId();
 console.log(id); // "2c5f-d82a-1e6b"
